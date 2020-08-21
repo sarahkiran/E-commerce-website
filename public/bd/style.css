@@ -1,0 +1,120 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(241, 242, 243);
+    overflow-x: hidden;
+}
+.img-size{
+    width: 320px;
+    height: 150px;
+}
+.card{
+    background-color:#fff;
+    text-align:center;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    margin-bottom: 6%;
+}
+.card-product:hover{
+    transition:0.3s;
+    box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.158);
+   
+}
+.btn{
+    outline: none;
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    font-size: 10px;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    line-height: 1;
+    transition: .3s;
+    text-transform: uppercase;
+}
+.bg-image{
+    background-image: url("blood-donor.jpg");
+    background-size: cover;
+}
+.donate-h1 h1{
+    text-align: center;
+    font-size: 4.5rem;
+    padding-top:15%;
+    margin-bottom: 0%;
+    color: rgb(155, 2, 2);
+}
+.donate-h1 h4{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0%;
+    color: rgb(223, 222, 222);
+    padding-bottom: 20%;
+}
+/* praise */
+.card-praise{
+    box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.6);
+    transition: 0.4s;
+    background-color:#fff;
+    text-align:center;
+    font-family: sans-serif;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    margin-bottom: 6%;
+    color:black;
+}
+.fab{
+    font-size: 1.5rem;
+    color: #337ab7;
+}
+
+.fab:hover{
+    cursor: pointer;
+    color: #21527c;
+}
+.jumbotron{
+    background-color: transparent;
+}
+
+/* contact */
+.contact{
+    padding-top: 3%;
+    color: rgb(138, 138, 138)
+}
+
+.latest-cont{
+    text-align: center;
+    background-color:#dc3545;
+    color: white;
+    margin-bottom: 3%;
+}
+/* item */
+.item-cont{
+    margin-top: 3%;
+}
+/* thankyou */
+.order{
+    font-weight: 300;
+    font-size: 20px;
+    color:rgb(66, 66, 66)
+}
+.thankyou-heading{
+    color:whitesmoke;
+    margin-bottom: 0;
+    padding-bottom: 1%;
+    background-color: rgb(74, 121, 250);
+}
+
+.red, .card-title{
+    color: rgb(250, 68, 68);
+    text-align: center;
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+.text-center{
+    text-align: center;
+}
+.card-img{
+    height: 30rem;
+    padding-top: 0;
+    margin-top: -11px;
+}
+
